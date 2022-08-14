@@ -15547,11 +15547,11 @@ div.app .app-home .home-header {
 	z-index: 15;
 }
 
-div.app .app-home .home-header .tools a[href="/login"],div.app .app-home .home-header .tools a[href="/signup"] {
+div.app .app-home .home-header .tools a,div.app .app-home .home-header .tools a {
 	display: block;
 }
 
-div.app .app-home .home-header .tools a[href="/login"] .tools-item,div.app .app-home .home-header .tools a[href="/signup"] .tools-item {
+div.app .app-home .home-header .tools a .tools-item,div.app .app-home .home-header .tools a .tools-item {
 	align-items: center;
 	background: linear-gradient(180deg,#82ddf6,#2e789a);
 	border-radius: 50px;
@@ -15563,11 +15563,11 @@ div.app .app-home .home-header .tools a[href="/login"] .tools-item,div.app .app-
 	transform: scale(.9);
 }
 
-div.app .app-home .home-header .tools a[href="/login"] .tools-item i,div.app .app-home .home-header .tools a[href="/signup"] .tools-item i {
+div.app .app-home .home-header .tools a .tools-item i,div.app .app-home .home-header .tools a .tools-item i {
 	display: none;
 }
 
-div.app .app-home .home-header .tools a[href="/signup"] .tools-item {
+div.app .app-home .home-header .tools a .tools-item#login-btn {
 	background: linear-gradient(180deg,#d4d4d4,#eee,#bebebe,#bebebe);
 	color: #1e3c73;
 }
@@ -15818,91 +15818,91 @@ div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active:before
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=MPG]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-mpg.png);
+	background-image: url(../images/icon-mpg.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=PROMOTIONS]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-promo.png);
+	background-image: url(../images/icon-promo.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=SPORTS]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-sports.png);
+	background-image: url(../images/icon-sports.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=LOTTERY]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-lottery.png);
+	background-image: url(../images/icon-lottery.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=CHESS]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-chess.png);
+	background-image: url(../images/icon-chess.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=LIVE]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-live.png);
+	background-image: url(../images/icon-live.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=ESPORTS]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-esports.png);
+	background-image: url(../images/icon-esports.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=EGAME]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-egame.png);
+	background-image: url(../images/icon-egame.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code=ANIMAL]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-animal.png);
+	background-image: url(../images/icon-animal.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code="https://youtu.be/TYgZRsyZids"]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-shbet2.png);
+	background-image: url(../images/icon-shbet2.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code="https://phimsexsh.com/"]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-phim.png);
+	background-image: url(../images/icon-phim.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code="https://shbet.win/"]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-link-circle.png);
+	background-image: url(../images/icon-link-circle.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item[data-code*=youtube]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-sh.png);
+	background-image: url(../images/icon-sh.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=MPG]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-mpg-on.png);
+	background-image: url(../images/icon-mpg-on.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=PROMOTIONS]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-promo-on.png);
+	background-image: url(../images/icon-promo-on.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=SPORTS]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-sports-on.png);
+	background-image: url(../images/icon-sports-on.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=LOTTERY]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-lottery-on.png);
+	background-image: url(../images/icon-lottery-on.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=CHESS]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-chess-on.png);
+	background-image: url(../images/icon-chess-on.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=LIVE]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-live-on.png);
+	background-image: url(../images/icon-live-on.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=ESPORTS]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-esports-on.png);
+	background-image: url(../images/icon-esports-on.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=EGAME]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-egame-on.png);
+	background-image: url(../images/icon-egame-on.png);
 }
 
 div.app .app-home .home-gamelobby .home-quick-nav .home-quick-item.active[data-code=ANIMAL]:before {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-animal-on.png);
+	background-image: url(../images/icon-animal-on.png);
 }
 
 div.app .app-home .home-gamelobby .game-providers {
@@ -15929,7 +15929,7 @@ div.app .bottom-nav>ul {
 }
 
 div.app .bottom-nav>ul>li>i {
-	background: url(https://csi.20icipp.com/img/static/shbet/mobile/nav2-home.png) 50%/contain no-repeat;
+	background: url(../images/nav2-home.png) 50%/contain no-repeat;
 	display: block;
 	font-size: 0!important;
 	height: 30px;
@@ -15937,19 +15937,19 @@ div.app .bottom-nav>ul>li>i {
 }
 
 div.app .bottom-nav>ul>li>i.mps-gift {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/nav2-gift.png);
+	background-image: url(../images/nav2-gift.png);
 }
 
 div.app .bottom-nav>ul>li>i.mps-cservice {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/nav2-cs.png);
+	background-image: url(../images/nav2-cs.png);
 }
 
 div.app .bottom-nav>ul>li>i.mps-bnav-user {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/nav2-account.png);
+	background-image: url(../images/nav2-account.png);
 }
 
 div.app .bottom-nav>ul>li>i.mps-bnav-partner {
-	background-image: url(https://csi.20icipp.com/img/static/shbet/mobile/icon-partner.png);
+	background-image: url(../images/icon-partner.png);
 }
 
 div.app .bottom-nav>ul>li>h3 {
