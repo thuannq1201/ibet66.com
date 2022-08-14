@@ -475,6 +475,10 @@ button.center {
 	margin: 0 auto;
 }
 
+.home-carousel, .nrc-carousel, .carousel, .carousel-inner, .carousel-item {
+	height: 100%;
+}
+
 .nrc-carousel {
 	position: relative;
 }
@@ -11728,7 +11732,7 @@ p.highlight {
 	align-items: center;
 	display: flex;
 	height: 35px;
-	left: 5px;
+	left: 20px;
 	position: absolute;
 	top: 7.5px;
 	width: 110px;
